@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+/* redefinicao da template */
+@media screen and (max-width: 767px) and (min-width: 176px) {
+body {
+	padding-top: 6.2rem;
+}
+}
+.topo-links {
+	display: none;
+	visibility: hidden;
+}
+.titulos, .conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+.corpo {
+	background-image: none !important;
+}
+.conteudos {
+	max-width: 2000px;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+/* banners */
+.banners {
+	display: block;
+}
+/* RELATIVO A VERSAO DESKTOP */
+@media screen and (max-width: 1680px) and (min-width: 768px) {
+.banners {
+	height: 26.5vw;
+}
+}
+@media screen and (min-width: 1681px) {
+.banners {
+	height: 536px;
+}
+}
+/* *************************FIM BANNERS********************* */
+/* por que usar */
+.porqueusar {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: 1170px;
+	text-align: center;
+	width: 100%;
+}
+.porqueusar-cabecalho {
+	background: url(../img/home-porqueusar-titulo-linha.png) no-repeat left center;
+	background-size: 100%;
+	margin-bottom: 50px;
+	width: 100%;
+}
+.porquesusar-titulo {
+	margin: 0 auto !important;
+	max-width: 214px;
+	width: 100%;
+}
+.porquesusar-icones {
+	max-width: 151px;
+}
+.porqueusar img {
+	margin: 0 1.6%;
+}
+/* o que e biocimento */
+#biocimento {
+	float: left;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+}
+.biocimento-fundo {
+	display: block;
+	height: 95%;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: 1 !important;
+}
+.biocimento {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding-top: 23px;
+	position: relative;
+	z-index: 3;
+}
+.biocimento-produto-embalagem {
+	left: 0;
+	max-width: 311px;
+	position: absolute;
+	top: 0;
+	width: 26.6%;
+	z-index: 4;
+}
+.biocimento-textos {
+	float: right;
+	max-width: 860px;
+}
+.biocimento-titulo {
+	background: rgba(255, 255, 255,0.569);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	color: #4a780d;
+	display: block;
+	font-family: 'pantonlight_caps';
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 15px;
+	max-width: 263px;
+	padding: .4rem 1.2rem;
+	text-align: center;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.059);
+}
+.biocimento-texto {
+	color: #40413e;
+	display: block;
+	font-family: 'newsgoth_btroman';
+	font-size: 2.2rem;
+	line-height: 2.5rem;
+	margin-bottom: 1%;
+	text-align: justify;
+	width: 100%;
+}
+.biocimento-produtos {
+	display: block;
+	margin-bottom: 1%;
+	text-align: right;
+	width: 90%;
+}
+.biocimento-produtos img:nth-child(2) {
+	margin: 0 3%;
+}
+.biocimento-produto-img {
+	height: 100%;
+	max-height: 77px;
+	max-width: 76px;
+	width: 9.8%;
+}
+.biocimento-botao-container {
+}
+.biocimento-botao-container span {
+	background: url(../img/home-fundo-oque-e-biocimento-botao-fundo-linha.png) no-repeat right 15px;
+	background-size: 62.1%;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.biocimento-botao {
+	background: url(../img/home-fundo-oque-e-biocimento-botao.png) no-repeat left top;
+	background-size: 100%;
+	display: block;
+	height: 100rem;
+	max-height: 40px;
+	max-width: 336px;
+	width: 39.1%;
+}
+@media screen and (max-width: 1179px) and (min-width: 767px) {
+.porquesusar-icones {
+	display: inline-block;
+	padding-bottom: 25px;
+	width: 15%;
+}
+.porqueusar img {
+	margin: 0;
+}
+}
+@media screen and (max-width: 1223px) and (min-width: 1127px) {
+.biocimento-textos {
+	padding-right: 2%;
+}
+}
+@media screen and (max-width: 1126px) and (min-width: 768px) {
+.biocimento {
+	float: left;
+	padding: 25px 2% 0 2%;
+	width: 100%;
+}
+.biocimento-produto-embalagem {
+	bottom: 0;
+	left: -2%;
+	top: auto;
+	width: 35%;
+}
+.biocimento-textos {
+	width: 70%;
+}
+.biocimento-produtos {
+	margin: 15px 0;
+	text-align: center;
+	width: 100%;
+}
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+.porquesusar-icones {
+	display: inline-block;
+	padding-bottom: 25px;
+	width: 48%;
+}
+.porqueusar img {
+	margin: 0;
+}
+.biocimento {
+	float: left;
+	padding: 25px 2% 0 2%;
+}
+.biocimento-produto-embalagem {
+	bottom: 0;
+	left: -3%;
+	top: auto;
+	width: 35%;
+}
+.biocimento-textos {
+	width: 70%;
+}
+.biocimento-texto {
+	font-size: 1.8rem;
+}
+.biocimento-produtos {
+	margin: 15px 0;
+	text-align: center;
+	width: 100%;
+}
+.biocimento-produto-img {
+	width: 100%;
+}
+.biocimento-botao-container span {
+}
+.biocimento-botao {
+	margin: 0 auto;
+	width: 90%;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 638px) {
+.porqueusar img {
+	margin: 3%;
+}
+}
+@media screen and (max-width: 599px) {
+.biocimento-fundo {
+	height: 88.2%;
+}
+.biocimento {
+	padding: 25px 2%;
+}
+.biocimento-produto-embalagem {
+	display: none;
+}
+.biocimento-textos {
+	width: 100%;
+}
+.biocimento-titulo {
+	font-size: 1.6rem;
+}
+.biocimento-texto {
+	font-size: 1.5rem;
+}
+.biocimento-produtos {
+	margin: 15px 0;
+	text-align: center;
+	width: 100%;
+}
+.biocimento-produto-img {
+	width: 100%;
+}
+.biocimento-botao-container span {
+	background-image: none;
+}
+.biocimento-botao {
+	margin: 0 auto;
+	width: 90%;
+}
+}
